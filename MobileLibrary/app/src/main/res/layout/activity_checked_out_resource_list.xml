@@ -1,0 +1,8 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/checked_out_resource_detail_list"
+    android:name="org.aru.mobilelibrary.services.resources.CheckedOutListFragment" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" tools:context=".ResourceSearchActivity"
+    tools:layout="@android:layout/list_content"
+    android:background="@color/red"
+    />

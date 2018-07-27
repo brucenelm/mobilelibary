@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:layout_width="132sp"
+        android:layout_height="160sp"
+        android:id="@+id/resourceImageView" />
+
+    <TextView
+    style="?android:attr/textAppearanceLarge" android:layout_width="match_parent"
+    android:layout_height="400sp" android:padding="8dp" android:textIsSelectable="true"
+    tools:context=".ResourceDetailFragment" android:id="@+id/resource_detail"
+        android:text="Resource Detail Text."
+        android:textSize="16dp" />
+
+
+
+</LinearLayout>
